@@ -266,3 +266,45 @@ main {
 /* END OF SHOP-OFFER SECTION STYLE */
 
 
+/* INSTA-POST SECTION STYLE */
+
+.insta-post {
+    margin-top: 130px;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.insta-post-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.insta-post-intro p {
+    width: 550px;
+    text-align: center;
+}
+
+.insta-post-images {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.insta-post-images img {
+    width: 270px;
+    height: 313px;
+}
+
+
+
+
+
