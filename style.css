@@ -40,6 +40,11 @@ body {
     line-height: 29px;
 }
 
+.red-color-text {
+    color: #E55473;
+}
+
+/* GLOBAL STYLE ENDS HERE */
 
 
 /* HEADER SECTION STYLE */
@@ -200,10 +205,12 @@ main {
 .why-my-shop {
     margin-top: 130px;
     width: 1140px;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 50px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 90px;
 }
 
 .why-my-shop div {
@@ -224,5 +231,38 @@ main {
 }
 
 /* END OF WHY-MY-SHOP SECTION STYLE */
+
+
+/* SHOP-OFFER SECTION STYLE */
+
+.shop-offer {
+    margin-top: 130px;
+    width: 100%;
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.shop-offer-container {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.offer-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 470px;
+}
+
+/* END OF SHOP-OFFER SECTION STYLE */
 
 
