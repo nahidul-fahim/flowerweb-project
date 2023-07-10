@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/* GLOBAL STYLES FOR THE WEBSITE */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    background-color: #E55473;
+    color: white;
+    padding: 20px 40px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-desc {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+
+
+/* HEADER SECTION STYLE */
+
+.website-header {
+    background-color: rgba(212, 75, 104, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+
+.hero-section {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+
+}
+
+.main-title {
+    color: #272727;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hero-section-right img {
+    width: 505px;
+    height: 635px;
+}
+
+/* END OF THE HEADER SECTION */
+
+
+/* FEATURED SECTION STYLE */
+
