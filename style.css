@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap');
+
 
 /* GLOBAL STYLES FOR THE WEBSITE STARTS HERE */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
 * {
@@ -33,7 +34,7 @@ body {
 }
 
 .section-desc {
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba(53, 53, 53, 0.938);
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
@@ -202,7 +203,7 @@ main {
 /* WHY-MY-SHOP SECTION STYLE STARTS HERE */
 
 .why-my-shop {
-    margin-top: 130px;
+    margin-top: 150px;
     width: 1140px;
     background-color: rgba(39, 39, 39, 0.05);
     padding: 50px 0px;
@@ -235,7 +236,7 @@ main {
 /* SHOP-OFFER SECTION STYLE STARTS HERE */
 
 .shop-offer {
-    margin-top: 130px;
+    margin-top: 150px;
     width: 100%;
     background-color: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -268,7 +269,7 @@ main {
 /* INSTA-POST SECTION STYLE STARTS HERE */
 
 .insta-post {
-    margin-top: 130px;
+    margin-top: 150px;
     width: 1140px;
     display: flex;
     flex-direction: column;
@@ -311,7 +312,7 @@ main {
 .subscription-form {
     width: 1140px;
     height: 400px;
-    margin-top: 130px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -350,7 +351,7 @@ main {
 
 .location-time {
     width: 100%;
-    margin-top: 130px;
+    margin-top: 150px;
     background-color: rgba(253, 129, 237, 0.15);
     display: flex;
     justify-content: center;
@@ -421,7 +422,7 @@ main {
 /* FOOTER-AREA SECTION STYLE STARTS HERE */
 
 .footer-area {
-    margin-top: 130px;
+    margin-top: 150px;
     padding: 130px 0;
     background-color: #111010;
 }
