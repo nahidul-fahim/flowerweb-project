@@ -315,6 +315,7 @@ main {
     width: 1140px;
     height: 400px;
     margin-top: 150px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -337,6 +338,7 @@ main {
 .subscription-area input[type=email] {
     width: 480px;
     background-color: white;
+    border-radius: 5px;
     border: 0;
     color: rgba(39, 39, 39, 0.60);
     font-size: 17px;
