@@ -98,8 +98,6 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
-    margin-bottom: 200px;
-    /* REMOVE THIS MARGIN AFTER FINISHING */
 }
 
 /* FEATURED-AREA SECTION STYLE STARTS HERE */
@@ -348,4 +346,44 @@ main {
 /* SUBSCRIPTION-FORM SECTION STYLE ENDS HERE */
 
 
-/* FOOTER SECTION STYLE STARTS HERE */
+/* FOOTER-AREA SECTION STYLE STARTS HERE */
+
+.footer-area {
+    margin-top: 130px;
+    padding: 130px 0;
+    background-color: #111010;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-title {
+    color: white;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-container p {
+    color: rgba(255, 255, 255, 0.90);
+    width: 550px;
+    text-align: center;
+}
+
+.footer-container small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+/* FOOTER-AREA SECTION STYLE ENDS HERE */
