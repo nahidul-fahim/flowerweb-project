@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
-/* GLOBAL STYLES FOR THE WEBSITE */
+/* GLOBAL STYLES FOR THE WEBSITE STARTS HERE */
 
 body {
     font-family: 'Lato', sans-serif;
@@ -47,7 +47,7 @@ body {
 /* GLOBAL STYLE ENDS HERE */
 
 
-/* HEADER SECTION STYLE */
+/* HEADER SECTION STYLE STARTS HERE */
 
 .website-header {
     background-color: rgba(212, 75, 104, 0.1);
@@ -87,10 +87,10 @@ body {
     height: 635px;
 }
 
-/* END OF THE HEADER SECTION */
+/* THE HEADER SECTION STYLES END HERE*/
 
 
-/* MAIN SECTION STYLE */
+/* MAIN SECTION STYLE STARTS HERE */
 
 main {
     display: flex;
@@ -98,10 +98,11 @@ main {
     justify-content: center;
     align-items: center;
     margin-top: 150px;
-    margin-bottom: 200px; /* REMOVE THIS MARGIN AFTER FINISHING */
+    margin-bottom: 200px;
+    /* REMOVE THIS MARGIN AFTER FINISHING */
 }
 
-/* FEATURED-AREA SECTION STYLE */
+/* FEATURED-AREA SECTION STYLE STARTS HERE */
 
 .featured-area {
     display: flex;
@@ -197,10 +198,10 @@ main {
     width: 280px;
 }
 
-/* END OF THE FEATURED-AREA SECTION STYLE */
+/* FEATURED-AREA SECTION STYLE ENDS HERE */
 
 
-/* WHY-MY-SHOP SECTION STYLE */
+/* WHY-MY-SHOP SECTION STYLE STARTS HERE */
 
 .why-my-shop {
     margin-top: 130px;
@@ -218,7 +219,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px; 
+    gap: 20px;
 }
 
 .why-my-shop div p {
@@ -230,10 +231,10 @@ main {
     line-height: 35px;
 }
 
-/* END OF WHY-MY-SHOP SECTION STYLE */
+/* WHY-MY-SHOP SECTION STYLE ENDS HERE */
 
 
-/* SHOP-OFFER SECTION STYLE */
+/* SHOP-OFFER SECTION STYLE STARTS HERE */
 
 .shop-offer {
     margin-top: 130px;
@@ -263,10 +264,10 @@ main {
     width: 470px;
 }
 
-/* END OF SHOP-OFFER SECTION STYLE */
+/* SHOP-OFFER SECTION STYLE ENDS HERE */
 
 
-/* INSTA-POST SECTION STYLE */
+/* INSTA-POST SECTION STYLE STARTS HERE */
 
 .insta-post {
     margin-top: 130px;
@@ -304,7 +305,47 @@ main {
     height: 313px;
 }
 
+/* INSTA-POST SECTION STYLE ENDS HERE */
 
 
+/* SUBSCRIPTION-FORM SECTION STYLE STARTS HERE */
+
+.subscription-form {
+    width: 1140px;
+    height: 400px;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-image: url('./images/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.subscription-area {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.subscription-area input[type=email] {
+    width: 480px;
+    background-color: white;
+    border: 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px;
+}
+
+/* SUBSCRIPTION-FORM SECTION STYLE ENDS HERE */
 
 
+/* FOOTER SECTION STYLE STARTS HERE */
