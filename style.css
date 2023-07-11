@@ -336,14 +336,86 @@ main {
     background-color: white;
     border: 0;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 16px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 /* SUBSCRIPTION-FORM SECTION STYLE ENDS HERE */
+
+
+/* LOCATION AND OPENING HOURS - BONUS SECTION STYLE STARTS HERE */
+
+.location-time {
+    width: 100%;
+    margin-top: 130px;
+    background-color: rgba(253, 129, 237, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.location-time-container {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.location-time-img img {
+    width: 480px;
+    height: 600px;
+}
+
+.location-time-desc {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.location-time-desc address {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.smaller-title {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 20px;
+}
+
+.shop-hour {
+    list-style: none;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.shop-hour li {
+    margin-bottom: 10px;
+}
+
+#italic-desc {
+    font-style: italic;
+    color: #111010;
+}
+
+/* LOCATION AND OPENING HOURS - BONUS SECTION STYLE ENDS HERE */
 
 
 /* FOOTER-AREA SECTION STYLE STARTS HERE */
